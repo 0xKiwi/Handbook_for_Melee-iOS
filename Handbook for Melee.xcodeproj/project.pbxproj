@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C56848661DFE522800EA64CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56848651DFE522800EA64CD /* AppDelegate.swift */; };
+		C56848681DFE522800EA64CD /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56848671DFE522800EA64CD /* MasterViewController.swift */; };
+		C568486A1DFE522800EA64CD /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56848691DFE522800EA64CD /* DetailViewController.swift */; };
+		C568486D1DFE522800EA64CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C568486B1DFE522800EA64CD /* Main.storyboard */; };
+		C568486F1DFE522800EA64CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C568486E1DFE522800EA64CD /* Assets.xcassets */; };
+		C56848721DFE522800EA64CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C56848701DFE522800EA64CD /* LaunchScreen.storyboard */; };
+		C568487D1DFE522800EA64CD /* Handbook_for_MeleeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C568487C1DFE522800EA64CD /* Handbook_for_MeleeTests.swift */; };
+		C56848881DFE522800EA64CD /* Handbook_for_MeleeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56848871DFE522800EA64CD /* Handbook_for_MeleeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C56848791DFE522800EA64CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C568485A1DFE522700EA64CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C56848611DFE522700EA64CD;
+			remoteInfo = "Handbook for Melee";
+		};
+		C56848841DFE522800EA64CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C568485A1DFE522700EA64CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C56848611DFE522700EA64CD;
+			remoteInfo = "Handbook for Melee";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C56848621DFE522800EA64CD /* Handbook for Melee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Handbook for Melee.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C56848651DFE522800EA64CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C56848671DFE522800EA64CD /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		C56848691DFE522800EA64CD /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		C568486C1DFE522800EA64CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C568486E1DFE522800EA64CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C56848711DFE522800EA64CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C56848731DFE522800EA64CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C56848781DFE522800EA64CD /* Handbook for MeleeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Handbook for MeleeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C568487C1DFE522800EA64CD /* Handbook_for_MeleeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Handbook_for_MeleeTests.swift; sourceTree = "<group>"; };
+		C568487E1DFE522800EA64CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C56848831DFE522800EA64CD /* Handbook for MeleeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Handbook for MeleeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C56848871DFE522800EA64CD /* Handbook_for_MeleeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Handbook_for_MeleeUITests.swift; sourceTree = "<group>"; };
+		C56848891DFE522800EA64CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C568485F1DFE522700EA64CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C56848751DFE522800EA64CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C56848801DFE522800EA64CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C56848591DFE522700EA64CD = {
+			isa = PBXGroup;
+			children = (
+				C56848641DFE522800EA64CD /* Handbook for Melee */,
+				C568487B1DFE522800EA64CD /* Handbook for MeleeTests */,
+				C56848861DFE522800EA64CD /* Handbook for MeleeUITests */,
+				C56848631DFE522800EA64CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C56848631DFE522800EA64CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C56848621DFE522800EA64CD /* Handbook for Melee.app */,
+				C56848781DFE522800EA64CD /* Handbook for MeleeTests.xctest */,
+				C56848831DFE522800EA64CD /* Handbook for MeleeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C56848641DFE522800EA64CD /* Handbook for Melee */ = {
+			isa = PBXGroup;
+			children = (
+				C56848651DFE522800EA64CD /* AppDelegate.swift */,
+				C56848671DFE522800EA64CD /* MasterViewController.swift */,
+				C56848691DFE522800EA64CD /* DetailViewController.swift */,
+				C568486B1DFE522800EA64CD /* Main.storyboard */,
+				C568486E1DFE522800EA64CD /* Assets.xcassets */,
+				C56848701DFE522800EA64CD /* LaunchScreen.storyboard */,
+				C56848731DFE522800EA64CD /* Info.plist */,
+			);
+			path = "Handbook for Melee";
+			sourceTree = "<group>";
+		};
+		C568487B1DFE522800EA64CD /* Handbook for MeleeTests */ = {
+			isa = PBXGroup;
+			children = (
+				C568487C1DFE522800EA64CD /* Handbook_for_MeleeTests.swift */,
+				C568487E1DFE522800EA64CD /* Info.plist */,
+			);
+			path = "Handbook for MeleeTests";
+			sourceTree = "<group>";
+		};
+		C56848861DFE522800EA64CD /* Handbook for MeleeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C56848871DFE522800EA64CD /* Handbook_for_MeleeUITests.swift */,
+				C56848891DFE522800EA64CD /* Info.plist */,
+			);
+			path = "Handbook for MeleeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C56848611DFE522700EA64CD /* Handbook for Melee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C568488C1DFE522800EA64CD /* Build configuration list for PBXNativeTarget "Handbook for Melee" */;
+			buildPhases = (
+				C568485E1DFE522700EA64CD /* Sources */,
+				C568485F1DFE522700EA64CD /* Frameworks */,
+				C56848601DFE522700EA64CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Handbook for Melee";
+			productName = "Handbook for Melee";
+			productReference = C56848621DFE522800EA64CD /* Handbook for Melee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C56848771DFE522800EA64CD /* Handbook for MeleeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C568488F1DFE522800EA64CD /* Build configuration list for PBXNativeTarget "Handbook for MeleeTests" */;
+			buildPhases = (
+				C56848741DFE522800EA64CD /* Sources */,
+				C56848751DFE522800EA64CD /* Frameworks */,
+				C56848761DFE522800EA64CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C568487A1DFE522800EA64CD /* PBXTargetDependency */,
+			);
+			name = "Handbook for MeleeTests";
+			productName = "Handbook for MeleeTests";
+			productReference = C56848781DFE522800EA64CD /* Handbook for MeleeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C56848821DFE522800EA64CD /* Handbook for MeleeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C56848921DFE522800EA64CD /* Build configuration list for PBXNativeTarget "Handbook for MeleeUITests" */;
+			buildPhases = (
+				C568487F1DFE522800EA64CD /* Sources */,
+				C56848801DFE522800EA64CD /* Frameworks */,
+				C56848811DFE522800EA64CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C56848851DFE522800EA64CD /* PBXTargetDependency */,
+			);
+			name = "Handbook for MeleeUITests";
+			productName = "Handbook for MeleeUITests";
+			productReference = C56848831DFE522800EA64CD /* Handbook for MeleeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C568485A1DFE522700EA64CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Ivan Martinez";
+				TargetAttributes = {
+					C56848611DFE522700EA64CD = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = ADC852WR7A;
+						ProvisioningStyle = Automatic;
+					};
+					C56848771DFE522800EA64CD = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = ADC852WR7A;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C56848611DFE522700EA64CD;
+					};
+					C56848821DFE522800EA64CD = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = ADC852WR7A;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C56848611DFE522700EA64CD;
+					};
+				};
+			};
+			buildConfigurationList = C568485D1DFE522700EA64CD /* Build configuration list for PBXProject "Handbook for Melee" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C56848591DFE522700EA64CD;
+			productRefGroup = C56848631DFE522800EA64CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C56848611DFE522700EA64CD /* Handbook for Melee */,
+				C56848771DFE522800EA64CD /* Handbook for MeleeTests */,
+				C56848821DFE522800EA64CD /* Handbook for MeleeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C56848601DFE522700EA64CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C56848721DFE522800EA64CD /* LaunchScreen.storyboard in Resources */,
+				C568486F1DFE522800EA64CD /* Assets.xcassets in Resources */,
+				C568486D1DFE522800EA64CD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C56848761DFE522800EA64CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C56848811DFE522800EA64CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C568485E1DFE522700EA64CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C568486A1DFE522800EA64CD /* DetailViewController.swift in Sources */,
+				C56848681DFE522800EA64CD /* MasterViewController.swift in Sources */,
+				C56848661DFE522800EA64CD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C56848741DFE522800EA64CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C568487D1DFE522800EA64CD /* Handbook_for_MeleeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C568487F1DFE522800EA64CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C56848881DFE522800EA64CD /* Handbook_for_MeleeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C568487A1DFE522800EA64CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C56848611DFE522700EA64CD /* Handbook for Melee */;
+			targetProxy = C56848791DFE522800EA64CD /* PBXContainerItemProxy */;
+		};
+		C56848851DFE522800EA64CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C56848611DFE522700EA64CD /* Handbook for Melee */;
+			targetProxy = C56848841DFE522800EA64CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C568486B1DFE522800EA64CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C568486C1DFE522800EA64CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C56848701DFE522800EA64CD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C56848711DFE522800EA64CD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C568488A1DFE522800EA64CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C568488B1DFE522800EA64CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C568488D1DFE522800EA64CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ADC852WR7A;
+				INFOPLIST_FILE = "Handbook for Melee/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ivanmartinez.Handbook-for-Melee";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C568488E1DFE522800EA64CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ADC852WR7A;
+				INFOPLIST_FILE = "Handbook for Melee/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ivanmartinez.Handbook-for-Melee";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C56848901DFE522800EA64CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ADC852WR7A;
+				INFOPLIST_FILE = "Handbook for MeleeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ivanmartinez.Handbook-for-MeleeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Handbook for Melee.app/Handbook for Melee";
+			};
+			name = Debug;
+		};
+		C56848911DFE522800EA64CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ADC852WR7A;
+				INFOPLIST_FILE = "Handbook for MeleeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ivanmartinez.Handbook-for-MeleeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Handbook for Melee.app/Handbook for Melee";
+			};
+			name = Release;
+		};
+		C56848931DFE522800EA64CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ADC852WR7A;
+				INFOPLIST_FILE = "Handbook for MeleeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ivanmartinez.Handbook-for-MeleeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Handbook for Melee";
+			};
+			name = Debug;
+		};
+		C56848941DFE522800EA64CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ADC852WR7A;
+				INFOPLIST_FILE = "Handbook for MeleeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ivanmartinez.Handbook-for-MeleeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Handbook for Melee";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C568485D1DFE522700EA64CD /* Build configuration list for PBXProject "Handbook for Melee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C568488A1DFE522800EA64CD /* Debug */,
+				C568488B1DFE522800EA64CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C568488C1DFE522800EA64CD /* Build configuration list for PBXNativeTarget "Handbook for Melee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C568488D1DFE522800EA64CD /* Debug */,
+				C568488E1DFE522800EA64CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C568488F1DFE522800EA64CD /* Build configuration list for PBXNativeTarget "Handbook for MeleeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C56848901DFE522800EA64CD /* Debug */,
+				C56848911DFE522800EA64CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C56848921DFE522800EA64CD /* Build configuration list for PBXNativeTarget "Handbook for MeleeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C56848931DFE522800EA64CD /* Debug */,
+				C56848941DFE522800EA64CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C568485A1DFE522700EA64CD /* Project object */;
+}
