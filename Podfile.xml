@@ -1,0 +1,4 @@
+target 'MyApp' do
+  use_frameworks!
+  pod ‘AEXML’
+end
