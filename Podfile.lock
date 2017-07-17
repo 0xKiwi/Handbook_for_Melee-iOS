@@ -1,12 +1,72 @@
 PODS:
-  - AEXML (4.0.1)
+  - AEXML (4.1.0)
+  - Appodeal/AmazonAdsAdapter (1.3.9):
+    - Appodeal/Core
+  - Appodeal/Banner (1.3.9):
+    - Appodeal/AmazonAdsAdapter
+    - Appodeal/FacebookAudienceAdapter
+    - Appodeal/GoogleAdMobAdapter
+    - Appodeal/InMobiAdapter
+    - Appodeal/MyTargetAdapter
+    - Appodeal/StartAppAdapter
+    - Appodeal/TwitterMoPubAdapter
+    - Appodeal/YandexAdapter
+  - Appodeal/Core (1.3.9)
+  - Appodeal/FacebookAudienceAdapter (1.3.9):
+    - Appodeal/Core
+  - Appodeal/GoogleAdMobAdapter (1.3.9):
+    - Appodeal/Core
+  - Appodeal/InMobiAdapter (1.3.9):
+    - Appodeal/Core
+  - Appodeal/MyTargetAdapter (1.3.9):
+    - Appodeal/Core
+  - Appodeal/StartAppAdapter (1.3.9):
+    - Appodeal/Core
+  - Appodeal/TwitterMoPubAdapter (1.3.9):
+    - Appodeal/Core
+  - Appodeal/YandexAdapter (1.3.9):
+    - Appodeal/Core
+  - Firebase/Core (4.0.0):
+    - FirebaseAnalytics (= 4.0.0)
+    - FirebaseCore (= 4.0.0)
+  - FirebaseAnalytics (4.0.0):
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseCore (4.0.0):
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseInstanceID (2.0.0):
+    - FirebaseCore (~> 4.0)
+  - GoogleToolboxForMac/Defines (2.1.1)
+  - GoogleToolboxForMac/NSData+zlib (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - Player (0.6.0)
+  - SwiftTheme (0.3.3)
+  - SwiftyStoreKit (0.10.3)
+  - XLPagerTabStrip (7.0.0)
 
 DEPENDENCIES:
   - AEXML
+  - Appodeal/Banner
+  - Firebase/Core
+  - Player
+  - SwiftTheme
+  - SwiftyStoreKit
+  - XLPagerTabStrip (~> 7.0)
 
 SPEC CHECKSUMS:
-  AEXML: 905e50474c0a261d335aa8be4ee32d22d69b6fd5
+  AEXML: 647fbb051280f3fb38a1a7caa62b0344055a851c
+  Appodeal: 55794c57ce4bc6b3c5e82072ed0b7d86ed2ce728
+  Firebase: 284eea779b73fdff309791817da7c68bff8dd572
+  FirebaseAnalytics: 6f08e746f7d66f5452931bc2e822b5df9c66b64a
+  FirebaseCore: 85ad466044c2f013cdb167f85d426d15b128114a
+  FirebaseInstanceID: 9fbf536668f4d3f0880e7438456dabd1376e294b
+  GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
+  Player: b1b301e2cce11771dad0c19ded6a0107316aa317
+  SwiftTheme: 85f84747a48749b5b3df7c3e96fc0b1d45677d30
+  SwiftyStoreKit: 91c41fb7c09b2937078936054db7b4eb908ed02a
+  XLPagerTabStrip: 9be80a66c6b7d60306b2c0a6004965016d68f813
 
-PODFILE CHECKSUM: 441be2cca25e3e26b15198dbfaf8496bb41e03c3
+PODFILE CHECKSUM: 51d14e1b30e5a9da62ebbe6e226a9745f3e3482c
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.2.1

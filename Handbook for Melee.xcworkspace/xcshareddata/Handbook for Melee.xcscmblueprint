@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F1A22B5D768A0F20C4625A829DE3E24C01C1DC0D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "9D527A0DEA14B0EDBD16664C0AAC681B9B63726E" : 9223372036854775807,
+    "F1A22B5D768A0F20C4625A829DE3E24C01C1DC0D" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B574A363-4184-4EA2-8CB8-D2962EAFB270",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "9D527A0DEA14B0EDBD16664C0AAC681B9B63726E" : "Handbook%20for%20Melee\/Handbook%20for%20Melee\/",
+    "F1A22B5D768A0F20C4625A829DE3E24C01C1DC0D" : "Handbook%20for%20Melee\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Handbook for Melee",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Handbook for Melee.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:ThatKawaiiGuy\/Handbook-for-Melee-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9D527A0DEA14B0EDBD16664C0AAC681B9B63726E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ThatKawaiiGuy\/Handbook_for_Melee-iOS",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F1A22B5D768A0F20C4625A829DE3E24C01C1DC0D"
+    }
+  ]
+}

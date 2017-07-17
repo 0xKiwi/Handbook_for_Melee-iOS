@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8478FF4AC8DE77EE2C083FEEEC089945"
+               BlueprintIdentifier = "F27A5AE91C6FF6E7207D82AB04479E6F"
                BuildableName = "Pods_Handbook_for_Melee.framework"
                BlueprintName = "Pods-Handbook for Melee"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8478FF4AC8DE77EE2C083FEEEC089945"
+            BlueprintIdentifier = "F27A5AE91C6FF6E7207D82AB04479E6F"
             BuildableName = "Pods_Handbook_for_Melee.framework"
             BlueprintName = "Pods-Handbook for Melee"
             ReferencedContainer = "container:Pods.xcodeproj">

@@ -54,7 +54,7 @@
         timing and maintaining a continuous string of attacks, the in-combat potential of this
         approach is clearly substantial, but largely untapped.
     ]]></string>
-    <string name="djc_info_text" title="Double jump cancel" character="Ness/Princess Peach/Princess Zelda/Yoshi"><![CDATA[Examples of DJC: https://youtu.be/O2Oa60lfkyo
+    <string name="djc_info_text" title="Double jump cancel" character="Ness/Princess Peach/Yoshi"><![CDATA[Examples of DJC: https://youtu.be/O2Oa60lfkyo
         <br>https://youtu.be/hBTgDxEqHw0
         <br>
         <br><big><b>Double jump cancel</b></big>
@@ -115,7 +115,7 @@
         so that if you were to perform the Down-B you wouldn't SD by the endlag sending you into the bottom
         blastzone.
     ]]></string>
-    <string-array name="grapple_group" title="Extended &amp; homing grapple" character="Samus Aran" amount="2">
+    <string-array name="grapple_group" title="Extended &amp; homing grapple" character="Samus" amount="2">
         <item name="egrapple_info_text" title="Extended grapple"><![CDATA[Examples of the extended grapple: https://youtu.be/QanFnmIyqQI
             <br>
             <br><big><b>Extended grapple</b></big>
@@ -328,10 +328,10 @@
         other frames will cause shieldstun onto Yoshi.
         <br>
         <br><b>Parry followups include</b>
-        <br>\tGrabbing
-        <br>\tRoll or sidestep
-        <br>\tJump
-        <br>\tShield drop
+        <br>Grabbing
+        <br>Roll or sidestep
+        <br>Jump
+        <br>Shield drop
     ]]></string>
     <string name="pillar_info_text" title="Pillaring" character="Falco/Fox"><![CDATA[Example: https://youtu.be/kPahZCKxcGI
         <br>
@@ -409,7 +409,7 @@
         <br>Original post: http://bit.ly/1OCWiTh
         <br>For more info on the invisible ceiling glitch, check here: http://bit.ly/1T8RqZP
     ]]></string>
-    <string name="rigcancel_info_text" title="RIG cancel" character="Samus Aran"><![CDATA[<big><b>Rising instant grapple cancel</b></big>
+    <string name="rigcancel_info_text" title="RIG cancel" character="Samus"><![CDATA[<big><b>Rising instant grapple cancel</b></big>
         <br>Samus has one of the best recoveries in the game. She can Walljump, Bomb Jump, Grapple, and has a very powerful Up-B.
         <br>One of the most versatile of these options is the Grapple. When used in the air, the beam can latch onto the side of
         the stage. Samus will dangle there until she presses Z or A to pull herself up. If she is grappled perfectly onto the
@@ -470,7 +470,7 @@
         <br>To SHDL with Fox you must short hop, either by lightly flicking the control stick up or using X or Y, and then press
         B twice immediately after getting off the ground. You do not fast fall for SHDL.
     ]]></string>
-    <string name="shffmissile_info_text" title="SHFF missiles" character="Samus Aran"><![CDATA[<big><b>Shorthop fastfall missiles</b></big>
+    <string name="shffmissile_info_text" title="SHFF missiles" character="Samus"><![CDATA[<big><b>Shorthop fastfall missiles</b></big>
         <br>Both versions of Samus' Side-B, Homing Missile and Super Missile, can have their
         endlag canceled by landing, similar to Falco's Laser and some other moves.
         <br>This technique can become even more effective when combined with platforms, as Samus
@@ -506,19 +506,19 @@
         <br>Since Falco only travels for 4 frames, there are only 4 shortened Phantasm lengths, as opposed to Fox who has 5.
         <br>
         <br><big><b>Timing for Falco</b></big>
-        <br>\tFull length. don't cancel the attack
-        <br>\tMedium length. Press B again on frame 20
-        <br>\tShort. Press B again on frame 19
-        <br>\tFeint. Press B again on frame 17 or 18, you will barely move, and no hitbox will come out.
+        <br>Full length. don't cancel the attack
+        <br>Medium length. Press B again on frame 20
+        <br>Short. Press B again on frame 19
+        <br>Feint. Press B again on frame 17 or 18, you will barely move, and no hitbox will come out.
         <br>
         <br><big><b>Timing for Fox</b></big>
-        <br>\tFull length. don't cancel the attack
-        <br>\tAlmost full length. Press B again on frame 24
-        <br>\tMedium length. Press B again on frame 23
-        <br>\tShort. Press B again on frame 22
-        <br>\tFeint. Press B again on frame 20 or 21, you will barely move, and no hitbox will come out.
+        <br>Full length. don't cancel the attack
+        <br>Almost full length. Press B again on frame 24
+        <br>Medium length. Press B again on frame 23
+        <br>Short. Press B again on frame 22
+        <br>Feint. Press B again on frame 20 or 21, you will barely move, and no hitbox will come out.
     ]]></string>
-    <string-array name="swd_group" title="Super wavedash &amp; SDWD" character="Samus Aran" amount="2">
+    <string-array name="swd_group" title="Super wavedash &amp; SDWD" character="Samus" amount="2">
         <item name="swd_info_text" title="Super wavedash"><![CDATA[Examples of SWD: https://youtu.be/8YSeHeuiX8U
             <br>
             <br><big><b>Super wavedash</b></big>
@@ -675,7 +675,7 @@
         <br><big><b>How to perform</b></big>
         <br>To perform the technique, simply wavedash off a platform or stage, and press B right before sliding off.
     ]]></string>
-    <string name="wallbomb_info_text" title="Wallbombing" character="Princess Peach"><![CDATA[<big><b>Wallbombing</b></big>
+    <string name="wallbomb_info_text" title="Wallbomb" character="Princess Peach"><![CDATA[<big><b>Wallbombing</b></big>
         <br>If Peach uses her Side-B and runs into a wall, she will bounce off of it. She can
         then perform the move again 29-35 frames later, and because the beginning of the
         moves brings her slightly upwards, she will rise up the wall. It is important to note

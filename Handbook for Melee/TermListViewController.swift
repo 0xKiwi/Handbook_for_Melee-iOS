@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import Appodeal
 
-class TermListViewController: UIViewController , UITableViewDelegate, UITableViewDataSource {
+class TermListViewController: HandbookViewController , UITableViewDelegate, UITableViewDataSource {
     
     @IBOutlet weak var tableView: UITableView!
     
@@ -20,12 +21,22 @@ class TermListViewController: UIViewController , UITableViewDelegate, UITableVie
         
         (titleList, descList) = XMLHelper.getTitleAndDescListFromXML(title: restorationIdentifier!)
         
-        self.tableView.estimatedRowHeight = 100
-        self.tableView.rowHeight = UITableViewAutomaticDimension
-        self.tableView.setNeedsLayout()
-        self.tableView.layoutIfNeeded()
-        
-        self.title = title;
+        tableView.delegate = self
+        tableView.estimatedRowHeight = 160
+        tableView.rowHeight = UITableViewAutomaticDimension
+        decorateTableView(tableView: tableView)
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        self.navigationItem.title = "Terminology"
+        if !adsAreRemoved() {
+            tableView.contentInset = UIEdgeInsetsMake(0, 0, 50, 0);
+            Appodeal.showAd(AppodealShowStyle.bannerBottom, rootViewController: self);
+            Appodeal.setBannerBackgroundVisible(false)
+        } else {
+            Appodeal.hideBanner()
+            tableView.contentInset = UIEdgeInsetsMake(0, 0, 0, 0);
+        }
     }
     
     // Number of sections
@@ -34,7 +45,11 @@ class TermListViewController: UIViewController , UITableViewDelegate, UITableVie
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 80
+        return UITableViewAutomaticDimension
+    }
+    
+    func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 160
     }
     
     //Number of rows, returns int

@@ -7,15 +7,48 @@
 //
 
 import UIKit
+import Appodeal
+import AVFoundation
+import SwiftyStoreKit
+import Firebase
+import SwiftTheme
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    var adsRemoved = false
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        Appodeal.initialize(withApiKey: "b88719599466bff10275dedf3571711d66755dc663dd1703", types: AppodealAdType.banner)
+        FirebaseApp.configure()
+        
+        let defaults = UserDefaults.standard
+			if defaults.bool(forKey: SettingsViewController.THEME_PREF) {
+				ThemeManager.setTheme(index: 1)
+			} else {
+				ThemeManager.setTheme(index: 0)
+			}
+        
+        defaults.register(defaults: [SettingsViewController.STRETCH_PREF: true])
+        defaults.register(defaults: [SettingsViewController.GROUP_PREF: true])
+        
+        let audioSession = AVAudioSession.sharedInstance()
+        try!audioSession.setCategory(AVAudioSessionCategoryPlayback, with: AVAudioSessionCategoryOptions.mixWithOthers) 
+        
+        SwiftyStoreKit.completeTransactions(atomically: true) { products in
+            for product in products {
+                if product.transaction.transactionState == .purchased || product.transaction.transactionState == .restored {
+                    if product.needsFinishTransaction {
+                        let defaults = UserDefaults.standard
+                        defaults.set(true, forKey: "adsRemoved")
+                        SwiftyStoreKit.finishTransaction(product.transaction)              }
+                    print("purchased: \(product)")
+                }
+            }
+        }
         return true
     }
 
